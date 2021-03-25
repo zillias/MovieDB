@@ -16,6 +16,7 @@ import { search } from "../../API";
 import CloseIcon from "@material-ui/icons/Close";
 import TheatersIcon from "@material-ui/icons/Theaters";
 import TvIcon from "@material-ui/icons/Tv";
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 import TrendingMoviesList from "../MovieList/TrendingMoviesList";
 import { Link } from "react-router-dom";
@@ -125,6 +126,14 @@ export default function Home() {
       <TrailerList />
       <MovieList section="Top Rated" />
       <MovieList section="Most Popular" />
+      <footer className={classes.footer}>
+        <Typography variant="subtitle1">
+          Made by : zillias (2021) | All rights reserved ©
+        </Typography>
+        <a className={classes.link} href="https://github.com/zillias/MovieDB">
+          <GitHubIcon fontSize="large" className={classes.gitHubIcon} />
+        </a>
+      </footer>
     </>
   );
 }

@@ -80,4 +80,16 @@ export default makeStyles((theme) => ({
     textDecoration: "none",
     color: "inherit",
   },
+  footer: {
+    backgroundColor: "black",
+    color: "white",
+    display: "flex",
+    justifyContent: "center",
+    padding: "10px 0px",
+    alignItems: "center",
+  },
+  gitHubIcon: {
+    marginLeft: 20,
+    cursor: "pointer",
+  },
 }));

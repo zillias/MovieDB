@@ -10,9 +10,9 @@ export default makeStyles({
     margin: "130px auto 50px auto ",
   },
   genreItem: {
-    margin: "5px 5px 0px 0px",
+    margin: "5px 5px 5px 0px",
   },
   sortFilter: {
-    margin: "30px 0px",
+    margin: "20px 0px",
   },
 });
