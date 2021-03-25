@@ -13,6 +13,6 @@ export default makeStyles({
     margin: "5px 5px 0px 0px",
   },
   sortFilter: {
-    margin: "20px 0px",
+    margin: "30px 0px",
   },
 });
